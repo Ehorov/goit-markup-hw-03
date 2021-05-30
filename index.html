@@ -14,26 +14,28 @@
   </head>
   <body>
     <header class="header-sections">
-      <a class="webstudio" href="./index.html"
-        ><span class="txt-bl">Web</span>Studio</a
-      >
-      <ul class="menu all-header">
-        <li class="item header-link">
-          <a href="./index.html" style="color: #2196f3">Студия</a>
-        </li>
-        <li class="item header-link">
-          <a href="./portfolio.html">Портфолио</a>
-        </li>
-        <li class="item header-link"><a href="">Контакты</a></li>
-      </ul>
-      <ul class="menu header-contacts">
-        <li class="item header-mail">
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li class="item header-phone">
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-      </ul>
+      <nav class="container main-nav">
+        <a class="webstudio" href="./index.html"
+          ><span class="txt-bl">Web</span>Studio</a
+        >
+        <ul class="all-header">
+          <li class="item header-link">
+            <a href="./index.html" style="color: #2196f3">Студия</a>
+          </li>
+          <li class="item header-link">
+            <a href="./portfolio.html">Портфолио</a>
+          </li>
+          <li class="item header-link"><a href="">Контакты</a></li>
+        </ul>
+        <ul class="header-contacts">
+          <li class="item header-mail">
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="item header-phone">
+            <a href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
       <section class="main-header-sections">
@@ -44,7 +46,7 @@
         <button type="button" class="btn-blue">Заказать услугу</button>
       </section>
       <section>
-        <ul class="menu">
+        <ul class="menu all-about">
           <li class="item">
             <h3>Внимание к деталям</h3>
             <p class="about">
@@ -80,8 +82,8 @@
         </ul>
       </section>
       <section>
-        <h2>Чем мы занимаемся</h2>
-        <ul class="menu">
+        <h2 class="work-text">Чем мы занимаемся</h2>
+        <ul class="menu work-sections">
           <li class="item">
             <img src="./images/box1.jpg" alt="box1" width="370" />
           </li>
@@ -95,7 +97,7 @@
       </section>
       <section class="team-sections">
         <h2>Наша команда</h2>
-        <ul class="menu">
+        <ul class="menu team-sections-box">
           <li class="item team">
             <img src="./images/igor.jpg" alt="igor" width="270" />
             <h3 class="team-employee">Игорь Демьяненко</h3>
@@ -124,7 +126,7 @@
         ><span class="txt-bl">Web</span>Studio</a
       >
       <address>
-        <ul>
+        <ul class="footer-all">
           <li>
             <a
               class="map link footer-adress"
