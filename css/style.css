@@ -335,38 +335,9 @@ h4 {
   flex-basis: cals((100%-90px)/3);
   border: 1px solid rgba(238, 238, 238, 1);
 }
-
-/*
-
-.container-port {
-  max-width: 1170px;
+.card-content {
+  margin: 20px 24px;
 }
-
-.card-set {
-  display: flex;
-  columns: 3;
-  flex-wrap: wrap;
-  margin-left: -10px;
-  margin-top: -10px;
-  list-style: none;
-}
-
-.item-port {
-  margin-left: 30px;
-  margin-top: 10px;
-  flex-basis: calc((100% - 30px) / 3);
-  background-color: #fff;
-  border: 1px solid rgba(238, 238, 238, 1);
-}
-.item-port h4 {
-  margin-top: 0;
-  font-size: 20px;
-}
-
-.item-port p {
-  padding-right: 0;
-}
-
 .card-heading {
   color: #212121;
   font-style: normal;
@@ -382,6 +353,5 @@ h4 {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
+  margin-top: 4px;
 }
-
-*/
