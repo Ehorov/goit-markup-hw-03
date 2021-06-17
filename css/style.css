@@ -40,7 +40,8 @@ ul {
 }
 .header-sections {
   border-bottom: 1px solid rgba(236, 236, 236, 1);
-  display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .txt-bl {
   color: #2196f3;
@@ -64,6 +65,7 @@ li {
   display: flex;
   margin-left: 93px;
 }
+
 .all-header .item {
   margin-right: 50px;
 }
@@ -93,6 +95,10 @@ h2 {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
 }
 h3 {
   color: #212121;
@@ -111,11 +117,12 @@ h3 {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+
 }
 .header-link a {
   color: #212121;
-  line-height: 80px;
   display: block;
+
 }
 a.current {
   color: #2196f3;
@@ -123,6 +130,7 @@ a.current {
 
 .header-link a:hover {
   color: #2196f3;
+
 }
 .header-contacts {
   display: flex;
@@ -141,7 +149,6 @@ a.current {
 }
 .header-mail a {
   color: rgba(117, 117, 117, 1);
-  line-height: 80px;
   display: block;
 }
 .header-mail a:hover {
@@ -156,7 +163,6 @@ a.current {
 }
 .header-phone a {
   color: rgba(117, 117, 117, 1);
-  line-height: 80px;
   display: block;
 }
 .header-phone a:hover {
@@ -185,8 +191,11 @@ a.current {
   margin-top: 30px;
 
 }
-.all-about {
+.all-about-sections {
   padding-top: 94px;
+}
+
+.all-about {
   justify-content: center;
   width: 1170px;
 }
@@ -200,12 +209,9 @@ a.current {
   font-size: 14px;
   line-height: 24px;
 }
-.all-work {
+.all-work-sections {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-.work-sections {
-  justify-content: center;
 }
 .work-sections .item + .item {
   margin-left: 30px;
@@ -266,13 +272,7 @@ a.current {
 .footer-sections {
   background-color: #2f303a;
   padding-top: 60px;
-}
-.webstudio.white {
-  margin-top: 60px;
-
-}
-.footer-all {
-  margin-top: 20px;
+  padding-bottom: 61px;
 }
 
 .link.footer-adress {
@@ -284,7 +284,13 @@ a.current {
   line-height: 24px;
   letter-spacing: 0.03em;
 }
-
+.txt-bl {
+  margin-bottom: 20px;
+}
+.webstudio.white {
+  display: block;
+  margin-bottom: 20px;
+}
 .footer-mail {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
@@ -308,6 +314,10 @@ a.current {
   color: white;
 }
 /* Portfilio*/
+.all-port-sections {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .btn-port {
   color: #212121;
   background-color: #f5f4fa;
@@ -333,8 +343,7 @@ a.current {
 .menu-btn {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 
 }
 .menu-btn .item + .item {
@@ -357,7 +366,6 @@ h4 {
   margin-left: -30px;
   margin-top: -30px;
   list-style: none;
-  padding-bottom: 94px;
 }
 
 .item-port {
