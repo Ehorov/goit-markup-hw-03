@@ -108,6 +108,7 @@ h3 {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  inherits: none;
 }
 
 .header-link {
@@ -130,7 +131,7 @@ a.current {
 
 .header-link a:hover {
   color: #2196f3;
-
+  
 }
 .header-contacts {
   display: flex;
